@@ -1,0 +1,158 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background-color: #fffff0
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.title {
+  font-family: "Italiana";
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.description {
+  font-family: "Italiana";
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.description-compose {
+  font-family: "Quicksand";
+  font-size: 20px;
+  padding-top: 5px;
+  font-weight: 500;
+}
+
+.description-post{
+  font-family: "Quicksand";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.post-title {
+  font-family: "Italiana";
+  color: black;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+
+.home-title {
+  font-family: "Italiana";
+  color: black;
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.navbar {
+    background-color:  #fffff0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-brand {
+  color: #1abc9c !important;
+}
+
+.navbar-nav li a{
+  color: #1abc9c !important;
+}
+
+.navbar-nav  li a:hover {
+    color: black !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+.compose-btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 2% 3%;
+  background-color: #1abc9c;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.seperation {
+  margin: 5% auto;
+  border: dotted #1abc9c 10px;
+  border-bottom: none;
+  width: 8%;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 14px;
+  color: #fff;
+  font-family: "Quicksand";
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  color: white;
+  text-decoration: none;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

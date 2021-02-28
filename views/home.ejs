@@ -1,0 +1,26 @@
+
+<%- include("partials/header"); -%>
+
+    <h1 class = "home-title">A Collection of Insights</h1>
+    <p class ="description-compose"> <%= startingContent %> </p>
+    <div class="compose-button">
+      <a class="compose-btn hvr-grow" href="/compose" target="_blank">COMPOSE</a>
+      <div>
+        <hr class="seperation">
+      </div>
+    </div>
+
+
+  <%  posts.forEach(function(post){ %>
+
+    <h1 class="post-title"><%=post.title%></h1>
+    <p class="description-post">
+    <%=post.content.substring(0, 100) + " ..."%>
+    <a href="/posts/<%=post._id%>">Read More</a>
+    </p>
+
+
+    <% }) %>
+
+
+<%- include("partials/footer"); -%>
